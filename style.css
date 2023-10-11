@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+  --pinkLight: #fadde1;
+  --pinkM: #ffa6c1;
+  --pinkDark: #ff5d8f;
+  --gray: #adb5bd;
+  --forCourse: #bde0fe;
+}
+
+* { 
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: var(--pinkLight);
+  padding: 5px;
+}
+
+.navbar-brand {
+  font-family: 'Sarabun', sans-serif;
+  transition: transform 0.3s;
+}
+
+.navbar-brand,
+.nav-link {
+  color: var(--pinkDark);
+}
+
+
+#home {
+  height: 100vh;
+  padding: 16rem 0;
+  color: var(--pinkDark);
+  background-image: url(img/top-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-us { 
+  color:  var(--pinkLight);
+  background-color: var(--pinkDark);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.wave-1 { 
+  margin-top: 1rem;
+}
+
+.section-title { 
+  padding: 5rem 0 2rem 0;
+}
+
+#courses { 
+  background-color: var(--gray);
+}
+
+.courses-title { 
+  font-weight: bold;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.card-title { 
+  font-weight: bold;
+  font-size: 30px;
+  margin: 1rem;
+}
+
+.card {
+  border: var(--pinkDark) solid 2px;
+  border-radius: 2rem;
+}
+
+.btn-card { 
+  background-color: var(--pinkDark);
+}
